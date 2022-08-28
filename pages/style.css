@@ -1,0 +1,33 @@
+.page {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern";
+  max-width: 1280px;
+  font-family: 'Inter', 'Arial', sans-serif;
+  margin: 0 auto;
+}
+
+.page__section {
+
+  padding: 20px 48px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  /* <= 768 */
+  .page__section {
+    padding: 20px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page__section {
+    padding: 20px 16px;
+  }
+}
