@@ -1,0 +1,24 @@
+.intro {
+  padding: 92px 0 0 142px;
+  display: grid;
+  grid-template-columns: minmax(min-content, 720px);
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 92px 0 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: calc((100vw - 320px) / (768 - 320) * (88 - 64) + 64px) calc((100vw - 320px) / (768 - 320) * (24 - 16) + 16px) 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    grid-template-columns: minmax(min-content, 288px);
+    padding: 64px 16px 0;
+  }
+}

@@ -1,0 +1,12 @@
+.place__link {
+  color: white;
+  line-height: 1.2;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: Normal;
+  font-size: 18px;
+  margin-top: 12px;
+}
+
+.place__link:hover {
+  cursor: pointer;
+}

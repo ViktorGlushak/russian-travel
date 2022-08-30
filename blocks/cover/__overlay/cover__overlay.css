@@ -1,0 +1,13 @@
+.cover__overlay {
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  width: inherit;
+  height: inherit;
+  transition: opacity .5s;
+}
+
+.cover__overlay:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity .5s;
+}

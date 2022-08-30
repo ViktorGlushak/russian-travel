@@ -1,0 +1,26 @@
+.cover {
+  position: relative;
+  width: min(100%, 1184px);
+  height: 740px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    height: calc((100vw - 320px) / (768 - 320) * (480 - 200) + 200px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    height: 200px;
+  }
+}

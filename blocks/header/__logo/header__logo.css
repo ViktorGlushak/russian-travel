@@ -1,0 +1,15 @@
+.header__logo {
+  width: 176px;
+  height: 52px;
+  grid-column: 1;
+  align-self: center;
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+    grid-column: 1;
+    align-self: center;
+  }
+}

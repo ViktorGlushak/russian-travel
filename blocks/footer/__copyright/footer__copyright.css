@@ -1,0 +1,13 @@
+.footer__copyright {
+  line-height: 1.1;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: Normal;
+  font-size: 14px;
+  grid-column: -1;
+}
+
+@media screen and (max-width: 735px) {
+  .footer__copyright {
+    grid-column: 1;
+  }
+}
