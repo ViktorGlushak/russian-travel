@@ -1,13 +1,31 @@
 .cover__overlay {
-  background-color: #2A2C2F;
-  opacity: 0.3;
+  display: grid;
+  min-height: 740px;
+  align-items: center;
+  justify-items: center;
   width: inherit;
   height: inherit;
-  transition: opacity .5s;
+  z-index: 1;
+  background-color: rgba(42, 44, 47, .3);
+  transition: background-color .2s;
+  color: white;
+  text-decoration: none;
 }
 
-.cover__overlay:hover {
-  cursor: pointer;
-  opacity: 0.8;
-  transition: opacity .5s;
+@media screen and (max-width: 1024px) {
+  .cover__overlay {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    min-height: calc((100vw - 320px) / (768 - 320) * (480 - 200) + 200px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    min-height: 200px;
+  }
 }

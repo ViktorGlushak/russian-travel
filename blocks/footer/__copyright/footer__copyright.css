@@ -3,11 +3,15 @@
   font-family: 'Inter', 'Arial', sans-serif;
   font-weight: Normal;
   font-size: 14px;
-  grid-column: -1;
+  grid-column: 2;
+  justify-self: end;
+  margin: 0;
 }
 
 @media screen and (max-width: 735px) {
   .footer__copyright {
     grid-column: 1;
+    justify-self: start;
+    margin: 48px 0 24px 0;
   }
 }

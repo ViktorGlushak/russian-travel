@@ -1,5 +1,4 @@
 .cover__descriprion {
-  position: absolute;
   width: min(100%, 560px);
   text-align: center;
   display: grid;

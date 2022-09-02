@@ -4,15 +4,17 @@
   margin-top: 48px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1150px) {
   .place__image {
-    width: min(100%, 440px);
+    /*width: min(100%, 440px);*/
+    width: min(100%, calc((100vw - 1024px) / (1280 - 1024) * (460 - 440) + 440px));
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__image {
-    width: min(100%, 340px);
+    /*width: min(100%, 340px);*/
+    width: min(100%, calc((100vw - 768px) / (1024 - 768) * (440 - 340) + 340px));
   }
 }
 

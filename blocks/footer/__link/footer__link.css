@@ -11,12 +11,11 @@
   .footer__link {
     grid-column: 1;
     line-height: 1;
-    font-family: 'Inter', 'Arial', sans-serif;
-    font-weight: Normal;
     font-size: 24px;
   }
 }
 
 .footer__link:hover {
   cursor: pointer;
+  opacity: .8;
 }

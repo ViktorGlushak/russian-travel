@@ -1,12 +1,12 @@
 .lead__caption {
   margin: 8px 0 0 0;
-  width: 158px;
   line-height: 1.4;
   font-family: 'Inter', 'Arial', sans-serif;
   font-weight: Normal;
   font-size: 10px;
   text-align: start;
   letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px) {
